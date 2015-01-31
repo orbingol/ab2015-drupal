@@ -173,6 +173,7 @@ Veritabanı eklemek için [phpMyAdmin](http://www.phpmyadmin.net) kullanabilir v
 ### Türkçe dil ekleme
 
 ```bash
+~/public_html/drupal $ drush en locale
 ~/public_html/drupal $ drush dl drush_language
 ~/public_html/drupal $ drush language-add tr
 ~/public_html/drupal $ drush language-default tr
