@@ -4,7 +4,7 @@
 
 Akademik Bilişim 2015 kapsamında düzenlenen *Eğitim Kurumları için Drupal* kursunun ders notlarıdır.
 
-## Yazarlar
+## Eğitmenler
 
 * [Onur Rauf Bingöl](http://onurraufbingol.com)
 * [Murat Duman](https://www.muratduman.com)
