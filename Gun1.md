@@ -55,13 +55,13 @@ export APACHE_RUN_GROUP=drupal
 Gerekli bazı eklentileri aktifleştiriyoruz.
 
 ```bash
-~ $ a2enmod rewrite
+~ $ sudo a2enmod rewrite
 ```
 
 Apache varsayılan dizinini değiştiriyoruz.
 
 ```bash
-~ $ nano /etc/apache2/sites-available/000-default.conf
+~ $ sudo nano /etc/apache2/sites-available/000-default.conf
 ```
 
 Bu dosya içinde aşağıdaki satırı bulup,
@@ -79,7 +79,7 @@ DocumentRoot /home/drupal/public_html
 Debian ve türevi Linux dağıtımları için PHP ayarlarında bazı değişiklikler yapmamız gerekiyor.
 
 ```bash
-~ $ nano /etc/apache2/mods-available/php5.conf
+~ $ sudo nano /etc/apache2/mods-available/php5.conf
 ```
 
 Bu dosyanın içinde aşağıdaki satırları bulup siliyoruz veya başına `#` işareti ekliyoruz.
