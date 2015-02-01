@@ -59,7 +59,7 @@ drush user-password admin --password="12345"
 drush user-login
 ```
 
-## Yanlış şifre girerseniz ve kullanıcı adımız bloklanırsa ne yapabiliriz?
+## Yanlış şifre girersek ve kullanıcı adımız bloklanırsa ne yapabiliriz?
 
 **Yol 1:**
 
