@@ -59,6 +59,16 @@ drush user-password admin --password="12345"
 drush user-login
 ```
 
+## Yanlış şifre girerseniz ve kullanıcı adımız bloklanırsa ne yapabiliriz?
+
+**Yol 1:**
+
+`drush user-login`
+
+**Yol 2:**
+
+`drush sql-query "TRUNCATE flood;"`
+
 ## Bugün üzerinde çalıştığımız modüller
 
 * views
