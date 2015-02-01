@@ -32,3 +32,15 @@
 * Toolbar (toolbar)    
 * Update manager (update)    
 * User (user) 
+
+## *Corporate Clean* temasının kurulması ve aktifleştirilmesi
+
+* `drush dl corporateclean`
+* `drush en corporateclean`
+* `drush vset theme_default corporateclean`
+
+## *Rubik* admin temasının kurulması
+
+* `drush dl tao, rubik`
+* `drush en tao, rubik`
+* `drush vset admin_theme rubik`
