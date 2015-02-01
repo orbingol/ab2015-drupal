@@ -148,6 +148,8 @@ Bir sonraki aşamada ise aşağıdaki komutu çalıştırıyoruz.
 ~ $ source ~/.bashrc
 ```
 
+`source` komutunu çalıştırmak yerine terminal ekranını açıp kapatabilirsiniz. İkisi de aynı işe yarayacaktır.
+
 ## Veritabanı işlemleri
 
 Veritabanı eklemek için [phpMyAdmin](http://www.phpmyadmin.net) kullanabilir veya [şu yazıyı](http://onurraufbingol.com/2015/01/29/komut-satirindan-mysql-ile-calismak-bolum2.html) referans alabilirsiniz.
