@@ -61,11 +61,11 @@ drush user-login
 
 ## Yanlış şifre girersek ve kullanıcı adımız bloklanırsa ne yapabiliriz?
 
-**Yol 1:**
+### Yol 1:
 
 `drush user-login`
 
-**Yol 2:**
+### Yol 2:
 
 `drush sql-query "TRUNCATE flood;"`
 
