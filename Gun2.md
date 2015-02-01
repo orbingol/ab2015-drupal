@@ -45,6 +45,20 @@
 * `drush en tao, rubik`
 * `drush vset admin_theme rubik`
 
+## Kullanıcı işlemleri
+
+* *admin* kullanıcısı şifresinin *12345* şeklinde değiştirilmesi
+
+```
+drush user-password admin --password="12345"
+```
+
+* *admin* kullanıcısı için tek kullanımlık giriş linkinin oluşturulması
+
+```
+drush user-login
+```
+
 ## Bugün üzerinde çalıştığımız modüller
 
 * views
