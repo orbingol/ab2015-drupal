@@ -106,7 +106,124 @@ ve ayarlarımızın çalışması için Apache'yi yeniden başlatıyoruz.
 
 ### Drupal multi-site için ayarların yapılması
 
-Yakında.
+Apache içinde bulunan varsayılan ayarların bir kısmını hazır olarak kullanabiliriz. Bunun için *mod_userdir* Apache eklentisini aktifleştiriyoruz.
+
+```bash
+~ $ sudo a2enmod userdir
+```
+
+ve sonrasında ayar dosyasını düzenliyoruz.
+
+```bash
+~ $ sudo nano /etc/apache2/mods-available/userdir.conf
+```
+
+Aşağıdaki satırı bulup,
+
+```
+AllowOverride FileInfo AuthConfig Limit Indexes
+```
+
+şu şekilde değiştiriyoruz:
+
+```
+AllowOverride All
+```
+
+#### mod_userdir nedir?
+
+*mod_userdir* ile sunucu / sistem içinde bulunan her kullanıcı için ayrılan web dizinini `~kullanici_adi` şeklinde yayınlanmasını sağlayan Apache modülüdür.
+
+Örnek olarak:
+
+* http://localhost/~drupal
+> */home/drupal/public_html* dizini içine koyduğunuz dosyaları Apache üzerinden yayınlar.
+* http://www.metu.edu.tr/~itosun/
+* http://www.metu.edu.tr/~ckaynak/
+
+#### Alan adlarının ayarlanması
+
+Öncelikle `http://localhost` adresini kullanıcımızın erişebileceği bir dizine ayarlıyoruz.
+
+```bash
+~ $ sudo nano /etc/apache2/sites-available/000-default.conf
+```
+
+Aşağıdaki satırı bulup,
+
+```
+DocumentRoot /var/www/html
+```
+
+şu şekilde değiştiriyoruz:
+
+```
+DocumentRoot /home/drupal/public_html
+```
+
+Sonrasında `example.com` sitesini Apache üzerinden sunacak hale getiriyoruz.
+
+```bash
+~ $ sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
+```
+
+Aşağıdaki satırları bulup,
+
+```
+#ServerName www.example.com
+DocumentRoot /home/onur/public_html
+```
+
+şu şekilde değiştiriyoruz:
+
+```
+ServerName example.com
+ServerAlias www.example.com
+DocumentRoot /home/onur/public_html/drupal
+```
+
+Benzer bir şekilde `deneme.com` sitesini de lokal kurulumdaki Apache'den sunacak şekle getirebiliriz.
+
+```bash
+~ $ sudo cp /etc/apache2/sites-available/example.com.conf /etc/apache2/sites-available/deneme.com.conf
+```
+
+Aşağıdaki satırları bulup,
+
+```
+ServerName example.com
+ServerAlias www.example.com
+```
+
+şu şekilde değiştiriyoruz:
+
+```
+ServerName deneme.com
+ServerAlias www.deneme.com
+```
+
+Bu siteleri aktifleştiriyoruz ve Apache'yi yeniden başlatıyoruz:
+
+```bash
+~ $ sudo a2ensite example.com
+~ $ sudo a2ensite deneme.com
+~ $ sudo service apache2 restart
+```
+
+En sonunda `/etc/hosts` dosyasına aşağıdaki satırları ekliyoruz
+
+```
+127.0.0.1 example.com
+127.0.0.1 www.example.com
+127.0.0.1 deneme.com
+127.0.0.1 www.deneme.com
+```
+
+Dosyayı açmak için aşağıdaki komut kullanılabilir:
+
+```bash
+~ $ sudo nano /etc/hosts
+```
 
 ### Drush kurulması
 
