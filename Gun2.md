@@ -44,3 +44,15 @@
 * `drush dl tao, rubik`
 * `drush en tao, rubik`
 * `drush vset admin_theme rubik`
+
+## Bugün üzerinde çalıştığımız modüller
+
+* views
+* calendar
+* date
+* panels
+
+Drupal kapsamında oluşan bazı olaylar sonrasında işlem yapılmak istendiğinde ise aşağıdaki modüller denenebilir.
+
+* trigger
+* rules (oldukça kapsamlıdır)
