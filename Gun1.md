@@ -136,8 +136,7 @@ AllowOverride All
 
 Örnek olarak:
 
-* http://localhost/~drupal
-> */home/drupal/public_html* dizini içine koyduğunuz dosyaları Apache üzerinden yayınlar.
+* http://localhost/~drupal (*/home/drupal/public_html* dizini içine koyduğunuz dosyaları Apache üzerinden yayınlar.)
 * http://www.metu.edu.tr/~itosun/
 * http://www.metu.edu.tr/~ckaynak/
 
