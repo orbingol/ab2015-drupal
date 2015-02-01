@@ -35,7 +35,7 @@ Buna göre,
 Bu noktada Apache'nin kendi kullanıcımız ve grubumuz ile çalışmasını sağlıyoruz.
 
 ```bash
-~ $ nano /etc/apache2/envvars
+~ $ sudo nano /etc/apache2/envvars
 ```
 
 ve aşağıdaki satırları bulup,
