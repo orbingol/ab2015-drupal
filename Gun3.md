@@ -8,7 +8,7 @@
 * [features](https://www.drupal.org/project/features)
 * [i18n](https://www.drupal.org/project/i18n)
 * [variable](https://www.drupal.org/project/variable)
-* [displaysuite](https://www.drupal.org/project/displaysuite)
+* [displaysuite](https://www.drupal.org/project/ds)
 
 ## Alt tema oluşturma (subtheme / starterkit)
 
@@ -19,8 +19,9 @@
 ## Opsiyonel işe yarar modüller
 
 * [fences](https://www.drupal.org/project/fences)
-* voting_api
-* field_collection
+* [field_collection](https://www.drupal.org/project/field_collection)
+* [taxonomy_menu](https://www.drupal.org/project/taxonomy_menu)
+* [nice_menus](https://www.drupal.org/project/nice_menus)
 
 ## Geliştirici modülleri
 
