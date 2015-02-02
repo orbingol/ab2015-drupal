@@ -12,8 +12,9 @@
 
 ## Alt tema oluşturma
 
-* zen
-* bootstrap
+* [zen](https://www.drupal.org/project/zen)
+* [bootstrap](https://www.drupal.org/project/bootstrap)
+* Bootstrap teması için: [jquery_update](https://www.drupal.org/project/jquery_update)
 
 ## Opsiyonel işe yarar modüller
 
