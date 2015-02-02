@@ -16,12 +16,16 @@
 * [bootstrap](https://www.drupal.org/project/bootstrap)
 * Bootstrap teması için: [jquery_update](https://www.drupal.org/project/jquery_update)
 
-## Opsiyonel işe yarar modüller
+## Yaygın kullanılan bazı modüller
 
 * [fences](https://www.drupal.org/project/fences)
 * [field_collection](https://www.drupal.org/project/field_collection)
 * [taxonomy_menu](https://www.drupal.org/project/taxonomy_menu)
 * [nice_menus](https://www.drupal.org/project/nice_menus)
+
+## İleri seviye modüller
+
+* [services](https://www.drupal.org/project/services)
 
 ## Drupal Geliştirme
 
