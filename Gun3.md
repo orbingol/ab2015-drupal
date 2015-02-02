@@ -22,10 +22,3 @@
 * [field_collection](https://www.drupal.org/project/field_collection)
 * [taxonomy_menu](https://www.drupal.org/project/taxonomy_menu)
 * [nice_menus](https://www.drupal.org/project/nice_menus)
-
-## Geliştirici modülleri
-
-* devel
-* devel_themer
-* [Drupal for Firebug](https://www.drupal.org/project/drupalforfirebug)
-* [DFF Mozilla Plugin](https://bitbucket.org/frob/drupalforfirebug/downloads)
