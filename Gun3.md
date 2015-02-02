@@ -3,6 +3,7 @@
 * wysiwyg
 * imce
 * pathauto
+* [imce_wysiwyg](https://www.drupal.org/project/imce_wysiwyg)
 * i18n
 * variable
 * features
