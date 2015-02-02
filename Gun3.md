@@ -10,7 +10,7 @@
 * [variable](https://www.drupal.org/project/variable)
 * [displaysuite](https://www.drupal.org/project/displaysuite)
 
-## Alt tema oluşturma
+## Alt tema oluşturma (subtheme / starterkit)
 
 * [zen](https://www.drupal.org/project/zen)
 * [bootstrap](https://www.drupal.org/project/bootstrap)
