@@ -22,3 +22,8 @@
 * [field_collection](https://www.drupal.org/project/field_collection)
 * [taxonomy_menu](https://www.drupal.org/project/taxonomy_menu)
 * [nice_menus](https://www.drupal.org/project/nice_menus)
+
+## Drupal Geliştirme
+
+* [Drupal API](https://api.drupal.org)
+* [Examples modülü](http://cgit.drupalcode.org/examples/tree/)
