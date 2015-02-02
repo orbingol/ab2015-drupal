@@ -4,10 +4,10 @@
 * [imce](https://www.drupal.org/project/imce)
 * [imce_wysiwyg](https://www.drupal.org/project/imce_wysiwyg)
 * [pathauto](https://www.drupal.org/project/pathauto)
-* i18n
-* variable
-* features
 * [token](https://www.drupal.org/project/token)
+* [features](https://www.drupal.org/project/features)
+* [i18n](https://www.drupal.org/project/i18n)
+* [variable](https://www.drupal.org/project/variable)
 * [displaysuite](https://www.drupal.org/project/displaysuite)
 
 ## Alt tema oluşturma
