@@ -170,7 +170,7 @@ Aşağıdaki satırları bulup,
 
 ```
 #ServerName www.example.com
-DocumentRoot /home/onur/public_html
+DocumentRoot /home/drupal/public_html
 ```
 
 şu şekilde değiştiriyoruz:
@@ -178,7 +178,7 @@ DocumentRoot /home/onur/public_html
 ```
 ServerName example.com
 ServerAlias www.example.com
-DocumentRoot /home/onur/public_html/drupal
+DocumentRoot /home/drupal/public_html/drupal
 ```
 
 Benzer bir şekilde `deneme.com` sitesini de lokal kurulumdaki Apache'den sunacak şekle getirebiliriz.
