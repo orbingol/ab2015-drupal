@@ -1,14 +1,14 @@
 ## Modül listesi
 
-* wysiwyg
-* imce
-* pathauto
+* [wysiwyg](https://www.drupal.org/project/wysiwyg)
+* [imce](https://www.drupal.org/project/imce)
 * [imce_wysiwyg](https://www.drupal.org/project/imce_wysiwyg)
+* [pathauto](https://www.drupal.org/project/pathauto)
 * i18n
 * variable
 * features
-* tokens
-* display_suite
+* [token](https://www.drupal.org/project/token)
+* [displaysuite](https://www.drupal.org/project/displaysuite)
 
 ## Alt tema oluşturma
 
